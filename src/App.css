@@ -1,0 +1,346 @@
+.App {
+  text-align: center;
+}
+
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+background: url(assets/blueHole.jpg);
+background-size: cover;
+min-height: 100vh;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: calc(10px + 2vmin);
+color: white;
+height: 100vh;
+overflow: hidden
+}
+
+.App-header .titLogo h2 {
+font-family: Arial, Helvetica, sans-serif;
+color: rgb(43, 65, 164);
+text-decoration: rgb(4, 118, 204) underline
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.container {
+  position: relative;
+}
+
+.titLogo {
+position: relative;
+bottom: 280px;
+left: -500px;
+display: flex;
+flex-direction: row-reverse;
+align-items: center;
+justify-content: center;
+}
+
+.titLogo h2 {
+color: white;
+margin-left: 15px;
+}
+
+.indexBody {
+display: grid;
+grid-template-columns: repeat(50, 1fr);
+grid-template-rows: repeat(50, 1fr);
+position: absolute;
+left: -480px;
+top: -160px;
+width: 700px;  
+height: 500px;
+}
+
+.unidad1 {
+padding: 0px;
+font-size: 0.8rem;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+grid-column-start: 3;
+grid-column-end: 13;
+grid-row-start: 5;
+grid-row-end: 15;  
+box-shadow: 0px 0px 10px rgb(2, 147, 209);
+border: solid 2px rgb(170, 1, 170);
+}
+
+.unidad2 {
+padding: 0px;
+font-size: 0.8rem;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+grid-column-start: 14;
+grid-column-end: 24;
+grid-row-start: 7;
+grid-row-end: 17;  
+box-shadow: 0px 0px 10px rgb(2, 147, 209);
+border: solid 2px rgb(170, 1, 170);
+}
+
+.unidad3 {
+padding: 0px;
+font-size: 0.8rem;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+grid-column-start: 25;
+grid-column-end: 35;
+grid-row-start: 9;
+grid-row-end: 19;  
+box-shadow: 0px 0px 10px rgb(2, 147, 209);
+border: solid 2px rgb(170, 1, 170);
+}
+
+.unidad4 {
+padding: 0px;
+font-size: 0.8rem;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+grid-column-start: 36;
+grid-column-end: 46;
+grid-row-start: 11;
+grid-row-end: 21; 
+box-shadow: 0px 0px 10px rgb(2, 147, 209);
+border: solid 2px rgb(170, 1, 170); 
+}
+
+.unidad5 {
+padding: 0px;
+font-size: 0.8rem;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+grid-column-start: 3;
+grid-column-end: 13;
+grid-row-start: 23;
+grid-row-end: 33;  
+box-shadow: 0px 0px 10px rgb(2, 147, 209);
+border: solid 2px rgb(170, 1, 170); 
+}
+
+.unidad6 {
+padding: 0px;
+font-size: 0.8rem;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+grid-column-start: 14;
+grid-column-end: 24;
+grid-row-start: 25;
+grid-row-end: 35;  
+box-shadow: 0px 0px 10px rgb(2, 147, 209);
+border: solid 2px rgb(170, 1, 170);
+}
+
+.unidad7 {
+padding: 0px;
+font-size: 0.8rem;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+grid-column-start: 25;
+grid-column-end: 35;
+grid-row-start: 27;
+grid-row-end: 37; 
+box-shadow: 0px 0px 10px rgb(2, 147, 209);
+border: solid 2px rgb(170, 1, 170); 
+}
+
+.unidad8 {
+padding: 0px;
+font-size: 0.8rem;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+grid-column-start: 36;
+grid-column-end: 46;
+grid-row-start: 29;
+grid-row-end: 39; 
+box-shadow: 0px 0px 10px rgb(2, 147, 209);
+border: solid 2px rgb(170, 1, 170); 
+}
+
+.unidad9 {
+padding: 0px;
+font-size: 0.8rem;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+grid-column-start: 3;
+grid-column-end: 13;
+grid-row-start: 40;
+grid-row-end: 50;  
+box-shadow: 0px 0px 10px rgb(2, 147, 209);
+border: solid 2px rgb(170, 1, 170);
+}
+
+.unidad1:hover, .unidad2:hover, .unidad3:hover, .unidad4:hover, .unidad5:hover, .unidad6:hover, .unidad7:hover, .unidad8:hover, .unidad9:hover {
+background-color: rgb(255, 16, 219);
+transform: scale(1.05);
+transition:0.3s;
+box-shadow: 0px 0px 10px rgb(0, 234, 255);
+}
+
+.unidad1, .unidad2, .unidad3, .unidad4, .unidad5, .unidad6, .unidad7, .unidad8, .unidad9 {
+border-radius: 5%;
+}
+
+h4 {
+color: white;
+}
+
+.unidadesBody {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: center;
+position: absolute;
+left: -480px;
+top: -160px;
+width: 700px;  
+height: 500px;
+}
+
+.unidadesBody h4 {
+position: relative;
+left: 90px;
+bottom: 50px;
+font-family: cursive;
+font-size: 1rem;
+}
+
+.back {
+position: relative;
+left: 90px;
+width: 50px;
+height: 30px;
+background-color: rgb(16, 10, 177);
+border: solid 2px rgb(2, 133, 227);
+border-radius: 15%;
+color: white
+}
+
+.back:hover {
+background-color: rgb(0, 183, 255); 
+border: solid 2px rgb(4, 28, 116);
+transform: scale(0.95); 
+transition: 0.2s;
+}
+
+.unidadesBody2 {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: repeat(5, 1fr);
+align-items: flex-start;
+justify-content:flex-start;
+position: absolute;
+left: -480px;
+top: -50px;
+width: 700px;  
+height: 500px;
+}
+
+.unidadesBody2 h4 {
+position: relative;
+left: 90px;
+bottom: 50px;
+font-family: cursive;
+font-size: 1rem;
+}
+
+.back2 {
+position: relative;
+left: -60px;
+bottom: 0px;
+width: 50px;
+height: 30px;
+background-color: rgb(16, 10, 177);
+border: solid 2px rgb(2, 133, 227);
+border-radius: 15%;
+color: white
+}
+  
+.back2:hover {
+background-color: rgb(0, 183, 255); 
+border: solid 2px rgb(4, 28, 116);
+transform: scale(0.95); 
+transition: 0.2s;
+}
+
+.textOrder {
+text-align: start;
+}
+
+.containerU4 {
+position: relative; 
+left: 100px; 
+}
+
+.containerU7 {
+position: relative; 
+left: 200px; 
+}
+
+.containerU8 {
+  position: relative; 
+  left: 300px; 
+  }
+
+.containerU9 {
+position: relative; 
+left: 0px; 
+}
+
+  .unidadesBody8 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: absolute;
+    left: -480px;
+    top: -260px;
+    width: 700px;  
+    height: 500px;
+    }
+    
+    .unidadesBody8 h4 {
+    position: relative;
+    left: 90px;
+    bottom: 50px;
+    font-family: cursive;
+    font-size: 1rem;
+    }
