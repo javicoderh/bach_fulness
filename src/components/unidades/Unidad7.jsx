@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import GlowingSphere from "../GlowingSphere";
 
 function Unidad7() {
  return (
   <header className="App-header">
+  <GlowingSphere />
   <div>
    <div className="containerU7">
  <div className="titLogo">
