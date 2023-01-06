@@ -1,19 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import GlowingSphere from "../GlowingSphere";
+import GlowingSphere from "../../GlowingSphere";
 
-function Unidad8() {
+function Unidad1() {
  return (
   <header className="App-header">
   <GlowingSphere />
   <div>
-   <div className="containerU8">
+   <div className="container">
  <div className="titLogo">
-  <h2>estrategías de marketing digital aplicadas a la consulta</h2>
+  <h2>Introducción</h2>
   <img src="https://images.vexels.com/media/users/3/142942/isolated/preview/08a7b5ad1ccd25f6b5c640aea11d96b5-health-flower-medicine.png" height="100" alt="" />
  </div>
- <div className="unidadesBody8">
-  <h4>-(Completar)</h4>
+ <div className="unidadesBody">
+  <h4>-Bienvenida</h4>
+  <h4>-Presentación equipo docente</h4>
+  <h4>-Presentación de metas y objetivos del curso</h4>
+  <h4>-Presentación de la maya curricular y estructura del curso</h4>
   <Link to="/">
   <button className="back">volver</button>
  </Link>
@@ -24,4 +27,4 @@ function Unidad8() {
   </header>
  )
 }
-export default Unidad8
+export default Unidad1

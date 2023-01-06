@@ -3,9 +3,12 @@ import { Link } from "react-router-dom"
 function BachIndex() {
 return (
 <header className="App-header">
+<div className="blueSp"> 
+  <img className="sphereBlue" src="https://freesvg.org/img/nlyl-blue-circle.png" alt="" />
+ </div>
 <div className="container">
  <div className="titLogo">
-  <h2>Bach fulness</h2>
+  <h2>BachFulness</h2>
   <img src="https://images.vexels.com/media/users/3/142942/isolated/preview/08a7b5ad1ccd25f6b5c640aea11d96b5-health-flower-medicine.png" height="100" alt="" />
  </div>
  <div className="indexBody">
@@ -63,10 +66,12 @@ return (
    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Green_sphere.svg/480px-Green_sphere.svg.png" height="20" alt="" />
    <h4>Examen final</h4>
    </Link>
-  </div>
+  </div>  
  </div>
+ <img src="https://bach-fulness.vercel.app/" height="50" alt="" />
 </div>
 </header>
 )
 }
 export default BachIndex
+

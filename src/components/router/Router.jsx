@@ -1,7 +1,7 @@
 import React from "react";
-import { BrowserRouter, HashRouter, Link, NavLink, Outlet, Route, Routes } from "react-router-dom";
+import { HashRouter,Route, Routes } from "react-router-dom";
 import BachIndex from "../Index";
-import Unidad1 from "../unidades/Unidad1";
+import Unidad1 from "../unidades/unidad1/Unidad1";
 import Unidad2 from "../unidades/Unidad2";
 import Unidad3 from "../unidades/Unidad3";
 import Unidad4 from "../unidades/Unidad4";
